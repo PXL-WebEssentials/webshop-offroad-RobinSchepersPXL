@@ -1,4 +1,26 @@
-/* rood: #d3252a zwart: #000004 wit: #fafafa*/
+/* rood: #E40515 zwart: #111111  wit: #FFFFFF */
 .material-symbols-outlined {
-    color: red;
+    color: #FFFFFF;
+}
+#bike{
+    color: #E40515;
+}
+.promo{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+}
+h2{
+    color: #FFFFFF;
+}
+h6{
+    padding: 0 50px 0 50px;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    background-color:#111111;
+    align-items: center;
+   justify-content: space-between;
 }
