@@ -5,48 +5,56 @@
     <title>Webshop OffRoad</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
 <header>
-    <div class="promo">
+    <div id="promo">
         <h6>Gratis verzending vanaf 75,-</h6>
         <h6>Voor 23u59 bestellen, de volgende dag in huis *</h6>
         <h6>Gratis retourneren</h6>
     </div>
     <nav>
-        <h2>OFFROAD </h2>
-
+        <h2 id="offroad" >OFFROAD </h2>
         <span class="material-symbols-outlined" id="bike">
             pedal_bike
         </span>
-        <span class="material-symbols-outlined">
+
+
+        <div id="symbols-nav">
+                   <span class="material-symbols-outlined">
         person
         </span>
-        <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined">
         favorite
         </span>
-        <span class="material-symbols-outlined">
+            <span class="material-symbols-outlined">
         shopping_cart
         </span>
+        </div>
+
     </nav>
     <div class="Title">
-
-        <h1>
+        <img id="background" src="assets/road.jpg" height="483" width="1920" alt="afbeelding-straat"/>
+        <h1 id="Title-text1">
             // GO _ OFFROAD //
         </h1>
-        <h3>
+        <h3 id="Title-text2">
             // BIKES // PARTS // SERVICES //
         </h3>
-        <img src="assets/road.jpg" height="483" width="1920" alt="afbeelding-straat"/></div>
+        </div>
 </header>
 <main>
+    <h2>// NEW IN //</h2>
     <article id="new-bikes">
-        <h2>// NEW IN //</h2>
-        <section>
-            <img src="assets/fiets1.png" height="270" width="400" alt="bike-1"/>
+
+        <section id="section-kato">
+            <img id="lanao" src="assets/fiets1.png" height="270" width="400" alt="bike-1"/>
             <div>
                 <h3 class="bike-name">
                     LANAO 27.5
@@ -95,27 +103,29 @@
         </section>
 
     </article>
-
+    <h2>// SALES + OUTLET //</h2>
     <article id="sales-bikes">
 
         <section>
             <img src="assets/fiets3.png" height="270" width="400" alt="bike-3"/>
-            <h3 class="bike-name">
+            <h3 class="bike-sales">
                 NIRVANA TOUR
             </h3>
         </section>
         <section>
             <img src="assets/fiets4.png" height="270" width="400" alt="bike-4"/>
-            <h3 class="bike-name">
+            <h3 class="bike-sales">
                 LECTOR
             </h3>
         </section>
         <section>
             <img src="assets/fiets5.png" height="270" width="400" alt="bike-5"/>
-            <h3 class="bike-name">
+            <h3 class="bike-sales">
                 LECTOR SF
             </h3>
         </section>
+
+
         <footer>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.2382636010575!2d5.344780977102382!3d50.93780655215337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1217a07f78ae7%3A0xf11010a945af0f77!2sPXL%20A-Blok%20(Elfde-Linie)%2C%20Elfde-Liniestraat%2024%2C%203500%20Hasselt!5e0!3m2!1sen!2sbe!4v1700320052515!5m2!1sen!2sbe"
                     width="400" height="300"

@@ -1,18 +1,32 @@
 /* rood: #E40515 zwart: #111111  wit: #FFFFFF */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+
 .material-symbols-outlined {
     color: #FFFFFF;
+
+
 }
 #bike{
     color: #E40515;
+    padding-right: 440px;
 }
-.promo{
+#promo{
     display: flex;
     justify-content: center;
-    height: 50px;
-
+    height: 1px;
+    font-size: 12px;
+    margin-bottom:10px ;
 }
-h2{
+
+#offroad{
     color: #FFFFFF;
+
 }
 h6{
     padding: 0 50px 0 50px;
@@ -22,5 +36,103 @@ nav{
     display: flex;
     background-color:#111111;
     align-items: center;
-   justify-content: space-between;
+    justify-content: space-between;
+    height: 50px;
+}
+#background{
+    width: 100%;
+    height: auto;
+
+}
+.Title{
+    position: relative;
+    text-align: center;
+}
+#Title-text1{
+    position: absolute;
+    top: 78px;
+    right: 200px;
+    background: rgba(255, 255, 255, .5)
+
+}
+#Title-text2{
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    font-size: 10px;
+    background: rgba(255, 255, 255, .5)
+
+}
+#symbols-nav{
+    padding-right: 100px;
+
+}
+#offroad{
+
+    padding-left: 100px;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+article{
+    display: flex;
+    font-size: 12px;
+
+
+
+}
+.bike-name{
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 400px;
+}
+.bike-sales{
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 175px;
+    text-align: center;
+}
+#new{
+    margin: 50px;
+}
+img{
+    width: 200px;
+    height: auto;
+
+}
+ul{
+    padding-left: 20px;
+    margin: 10px;
+    font-size: 8px;
+}
+li{
+    padding-bottom: 2px;
+}
+p{
+    margin: 10px;
+    font-size: 8px;
+    padding-right: 25px;
+}
+h2{
+    padding: 50px;
+}
+#lanao{
+    margin-left: 250px;
+}
+
+footer{
+    display: flex;
+    background-color:#111111;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+section{
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
 }
