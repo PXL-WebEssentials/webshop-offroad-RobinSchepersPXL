@@ -1,9 +1,10 @@
-/* rood: #E40515 zwart: #111111  wit: #FFFFFF */
+/* rood: #E40515 zwart: #111111  wit: #FFFFFF 75 rem */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', sans-serif;
+    max-width: 75rem;
 }
 
 
@@ -11,6 +12,9 @@
     color: #FFFFFF;
 
 
+.container{
+    max-width: 75rem;
+}
 }
 #bike{
     color: #E40515;
