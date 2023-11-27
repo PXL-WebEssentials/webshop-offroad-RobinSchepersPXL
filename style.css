@@ -4,28 +4,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Slab', sans-serif;
-    max-width: 75rem;
 }
 
 
 .material-symbols-outlined {
     color: #FFFFFF;
 
-
+}
 .container{
-    max-width: 75rem;
+    width: 75rem;
+    display: flex;
+
+
+    flex-direction: column;
 }
-}
+
 #bike{
     color: #E40515;
     padding-right: 440px;
 }
 #promo{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 1px;
     font-size: 12px;
-    margin-bottom:10px ;
+   margin: 10px;
+    flex-direction: row;
 }
 
 #offroad{
@@ -39,9 +43,10 @@ h6{
 nav{
     display: flex;
     background-color:#111111;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     height: 50px;
+    flex-direction:row;
 }
 #background{
     width: 100%;
@@ -98,6 +103,10 @@ article{
     width: 175px;
     text-align: center;
 }
+#sales-bikes{
+    display: flex;
+
+}
 #new{
     margin: 50px;
 }
@@ -129,8 +138,11 @@ h2{
 footer{
     display: flex;
     background-color:#111111;
-    align-items: center;
+    margin-top: 50px;
+    color: #FFFFFF;
     justify-content: space-between;
+    flex-direction: row;
+    text-align: right;
 
 
 }
@@ -139,4 +151,7 @@ section{
     justify-content: space-between;
     width: 100%;
 
+}
+#red{
+    color: #E40515;
 }
