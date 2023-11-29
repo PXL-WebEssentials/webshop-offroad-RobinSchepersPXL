@@ -5,162 +5,173 @@
     box-sizing: border-box;
     font-family: 'Roboto Slab', sans-serif;
 }
-
-
-.material-symbols-outlined {
-    color: #FFFFFF;
-
-}
-.container{
-    width: 75rem;
+.dilivery__container{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
 }
-
-#bike{
+.dilivery__container p b {
     color: #E40515;
-    padding-right: 440px;
-}
-#promo{
-    display: flex;
-    justify-content: space-around;
-    height: 1px;
-    font-size: 12px;
-   margin: 10px;
-    flex-direction: row;
-}
-
-#offroad{
-    color: #FFFFFF;
-
-}
-h6{
-    padding: 0 50px 0 50px;
-    font-weight: normal;
 }
 nav{
-    display: flex;
-    background-color:#111111;
-    align-items: baseline;
-    justify-content: center;
-    height: 50px;
-    flex-direction:row;
-    width: 100%;
-}
-#background{
-    width: 100%;
-    height: auto;
-
-}
-.Title{
-    position: relative;
-    text-align: center;
-}
-#Title-text1{
-    position: absolute;
-    top: 78px;
-    right: 200px;
-    background: rgba(255, 255, 255, .5)
-
-}
-#Title-text2{
-    position: absolute;
-    top: 120px;
-    right: 200px;
-    font-size: 10px;
-    background: rgba(255, 255, 255, .5)
-
-}
-#symbols-nav{
-    padding-right: 100px;
-
-}
-#offroad{
-
-    padding-left: 100px;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-article{
-    display: flex;
-    font-size: 12px;
-
-
-
-}
-.bike-name{
     background-color: #111111;
-    color: #FFFFFF;
-    padding: 10px;
-    width: 400px;
 }
-.bike-sales{
-    background-color: #111111;
-    color: #FFFFFF;
-    padding: 10px;
-    width: 175px;
-    text-align: center;
-}
-#sales-bikes{
+nav .nav__container{
     display: flex;
-
-}
-#new{
-    margin: 50px;
-}
-img{
-    width: 200px;
-    height: auto;
-
-}
-ul{
-    padding-left: 20px;
-    margin: 10px;
-    font-size: 8px;
-}
-li{
-    padding-bottom: 2px;
-}
-p{
-    margin: 10px;
-    font-size: 8px;
-    padding-right: 25px;
-}
-h2{
-    padding: 50px;
-}
-#lanao{
-    margin-left: 250px;
-}
-
-footer{
-    display: flex;
-    background-color:#111111;
-    margin-top: 50px;
-    color: #FFFFFF;
-    justify-content: center;
-    flex-direction: row;
-    text-align: right;
-    width: 100%;
-    height: auto;
-
-
-}
-section{
-    align-items: center;
     justify-content: space-between;
-    width: 100%;
-
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0.5rem 0;
 }
-#red{
+nav .nav__container ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+nav .nav__container h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+nav .nav__container span{
     color: #E40515;
 }
-body{
+nav .nav__container span{
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+nav .nav__container ul li span{
+    color: white;
+}nav .nav__container ul li span:hover{
+     color: #E40515;
+ }
+header{
+    background-image: url("assets/road.jpg");
+}
+header .header__container{
+    height: 25rem;
+    max-width: 80rem;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-end;
 }
-article{
-    margin-top: 100px;
+header .header__container h1{
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 5rem;
+    padding: 0.2rem;
+}
+header .header__container h2{
+    background-color: rgba(255, 255, 255, .6);
+    color: red;
+    font-size: 2rem;
+    padding: 0.2rem;
+
+}
+
+main section{
+    max-width: 80rem;
+    margin: 5rem auto;
+}
+main .main__section-new__container{
+    display: flex;
+    justify-content: center;
+}
+
+main section h1{
+    color: red;
+    margin: 2rem 0;
+}
+main section h2{
+    color: white;
+    background-color: #111111;
+    padding: 1rem;
+    border: 0.3rem solid #111111;
+}
+main section h2:hover{
+    color: white;
+    background-color: #E40515;
+
+}
+main .main__section-new--container article{
+    display: flex;
+    margin: 2rem ;
+    justify-content: center;
+}
+main .main__section-new--container article p{
+    margin: 1rem 0;
+}
+
+main .main__section-new--container article ul{
+    list-style-position: inside;
+}
+main .main__section-new--container article ul li{
+    list-style-position: inside;
+    padding: 0.5rem;
+}
+
+main .main__section-sales--container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+main .main__section-sales--container div{
+    display: flex;
+    flex-direction: row;
+}
+main .main__section-sales--container h2{
+    text-align: center;
+}
+main .main__section-sales--container article {
+    width: 100%;
+    margin: 1rem;
+}
+footer{
+    background-color: #111111;
+}
+footer .footer__container{
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+    text-align: right;
+}
+footer .footer__container .footer__container-contact{
+    color: #FFFFFF;
+}
+footer .footer__container .footer__container-contact h2{
+    color: #E40515;
+    padding: 1rem 0;
+}
+footer .footer__container .footer__container-contact a{
+    color:#FFFFFF;
+    padding: 0.3rem 0;
+}
+footer .footer__container .footer__container-contact a:hover{
+    color:#E40515;
+}
+
+#top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #E40515;
+    font-size: 3rem;
+
+}
+#top a{
+    color: #FFFFFF;
+    background-color: #E40515;
+    padding: 1rem 2rem;
+}
+#top a:hover{
+    color: #111111;
+    background-color: #FFFFFF;
+    border: 2px solid red;
 }
